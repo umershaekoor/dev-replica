@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="&lt;none&gt;:&lt;none&gt;" type="docker" uuid="b4597241-0fb4-4088-9ee7-fc293afec5d8">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildImageConfig">
+            <BuildImageConfig>
+              <option name="builtImageTag" value="&lt;none&gt;:&lt;none&gt;" />
+              <option name="dockerFile" value="dockerfile" />
+            </BuildImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="javaVersionString" value="11.0.15" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
